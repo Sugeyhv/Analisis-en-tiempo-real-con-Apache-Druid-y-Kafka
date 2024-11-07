@@ -38,9 +38,14 @@ Este proyecto presenta  Analisis  en tiempo real que ingiere, procesa y analiza 
 6. **Apache Druid**  
   Druid es una base de datos analítica en tiempo real de alto rendimiento. El principal valor añadido de Druid es reducir el tiempo necesario para obtener información y actuar.
 Druid está diseñado para flujos de trabajo donde las consultas rápidas y la ingesta realmente importan. Druid se destaca por potenciar las interfaces de usuario, ejecutar consultas operativas (ad hoc) o manejar una alta concurrencia. Considere a Druid como una alternativa de código abierto a los almacenes de datos para una variedad de casos de uso. La documentación de diseño explica los conceptos clave.
+ 
+
+<div align="center">
+  <img src="imagenes/Apache_druid.gif" alt="Apache Druid" />
+</div>
 
 
-7. **Grafana**  
+8. **Grafana**  
    Este es el panel de control del software de monitorización, que permite visualizar datos de forma gráfica y en tiempo real. Grafana se utiliza en este proyecto para crear dashboards interactivos y monitorear el rendimiento de las ventas de manera continua. La conexión con ClickHouse se realiza mediante el plugin "grafana-clickhouse-datasource”, permitiendo acceder a datos actualizados al instante y optimizando la experiencia de visualización en tiempo real
 
 ## Implementación en la Nube
@@ -58,6 +63,7 @@ Antes de lanzar una instancia EC2, revisa esta guía de inicio rápido. Utilizam
 2. Crea una nueva instancia EC2.
 3. Instala Apache Druid en la instancia.
 4. Ejecuta y abre Druid en tu navegador.
+   
 
 ##### Paso 1: Crear una Instancia EC2
 - **Sistema Operativo**: Ubuntu 22.04
@@ -70,6 +76,7 @@ Conéctate a la instancia creada mediante SSH y sigue estos pasos de configuraci
 
 ##### Ejecutar Apache Druid
 Para ejecutar Druid, utiliza el siguiente comando desde la instancia EC2:
+
 
 ```bash
 ./bin/start-micro-quickstart
