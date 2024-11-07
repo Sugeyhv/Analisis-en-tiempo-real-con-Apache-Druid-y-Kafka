@@ -63,7 +63,10 @@ Antes de lanzar una instancia EC2, revisa esta guía de inicio rápido. Utilizam
 2. Crea una nueva instancia EC2.
 3. Instala Apache Druid en la instancia.
 4. Ejecuta y abre Druid en tu navegador.
-   
+
+   <div align="center">
+  <img src="imagenes/aws.gif" alt="aws" />
+</div>
 
 ##### Paso 1: Crear una Instancia EC2
 - **Sistema Operativo**: Ubuntu 22.04
